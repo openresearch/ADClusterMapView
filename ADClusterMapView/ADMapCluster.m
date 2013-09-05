@@ -365,6 +365,10 @@
     }
     return [originalAnnotations autorelease];
 }
+
+- (MKMapRect)encompassingMapRect {
+    return _mapRect;
+}
 @end
 
 @implementation ADMapCluster (Private)

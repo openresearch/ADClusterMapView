@@ -34,4 +34,5 @@
 - (BOOL)isRootClusterForAnnotation:(id<MKAnnotation>)annotation;
 - (NSInteger)numberOfChildren;
 - (NSArray *)namesOfChildren;
+- (MKMapRect)encompassingMapRect;
 @end
